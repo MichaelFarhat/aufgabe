@@ -1,0 +1,12 @@
+.app {
+  height: 100vh;
+}
+
+.app__title {
+  background-color: aliceblue;
+  color: red;
+}
+
+.app__welcomeText {
+  background-color: aqua;
+}
