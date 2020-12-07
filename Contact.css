@@ -1,0 +1,24 @@
+.contact {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.contact__header {
+  color: #1e272e;
+}
+
+form {
+  width: 500px;
+  margin: 30px auto;
+}
+
+.contact__formControl {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+form > button {
+  display: block;
+  margin: 0 auto;
+}

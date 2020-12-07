@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.tracker__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tracker__header h3:first-child {
+  flex: 0.7;
+  padding: 20px 30px;
+  background-color: #16a085;
+}
+
+.tracker__header h3:last-child {
+  flex: 0.3;
+  padding: 20px 30px;
+  background-color: #7f8c8d;
+  text-align: right;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 30px auto;
+}
+
+th {
+  height: 35px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #aaa;
+}
+
+tr:hover {
+  background-color: #c6c4c4;
+}
